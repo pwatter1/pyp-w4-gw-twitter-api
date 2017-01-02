@@ -1,4 +1,7 @@
-import sqlite3, os, binascii, json
+import sqlite3
+import os
+import binascii
+import json
 
 from flask import Flask
 from flask import g, request, jsonify, Response
